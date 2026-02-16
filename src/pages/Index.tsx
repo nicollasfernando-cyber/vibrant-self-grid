@@ -3,6 +3,7 @@ import { PRICING_TIERS, INGREDIENTS, FAQS, BENEFITS } from '@/constants';
 import { Check, ChevronDown, ChevronUp, ShieldCheck, Leaf, Award, Zap, Heart, Shield, Brain, Dumbbell, Moon, Package, Globe } from 'lucide-react';
 import ProductButton from '@/components/ProductButton';
 import productBottle from '@/assets/product-bottle.png';
+import productLabel from '@/assets/product-label.png';
 import pricing1Bottle from '@/assets/pricing-1-bottle.png';
 import pricing3Bottles from '@/assets/pricing-3-bottles.png';
 import pricing4Bottles from '@/assets/pricing-4-bottles.png';
@@ -329,29 +330,8 @@ const Index: React.FC = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-black text-4xl mb-2 text-foreground">PRODUCT LABEL</h2>
           <p className="text-muted-foreground mb-12">Full transparency. See exactly what goes into every bottle.</p>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-            <div className="bg-brand-black p-4 rounded w-64 h-64 flex flex-col items-center justify-center">
-              <span className="font-black text-3xl text-primary-foreground">ENDURAXE</span>
-              <span className="font-black text-4xl text-brand-red">PRIME</span>
-              <span className="text-xs mt-4 text-primary-foreground/50">Premium Male Support</span>
-            </div>
-            <div className="bg-background border-4 border-foreground p-2 w-64 h-80 overflow-y-auto text-left text-xs">
-              <p className="font-bold text-lg border-b-4 border-foreground mb-2">Supplement Facts</p>
-              <p>Serving Size: 1 Capsule</p>
-              <p className="mb-2">Servings Per Container: 30</p>
-              <div className="border-b-2 border-foreground my-2"></div>
-              <div className="flex justify-between font-bold">
-                <span>Amount Per Serving</span>
-                <span>%DV</span>
-              </div>
-              {INGREDIENTS.map((i, idx) => (
-                <div key={idx} className="flex justify-between py-1 border-b border-border">
-                  <span>{i.name}</span>
-                  <span>**</span>
-                </div>
-              ))}
-              <p className="mt-4 text-[10px]">*Daily Value not established.</p>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <img src={productLabel} alt="Enduraxe Prime Product Label" className="w-full rounded shadow-lg" />
           </div>
         </div>
       </section>
