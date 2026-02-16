@@ -45,7 +45,7 @@ export const INGREDIENTS = [
   { name: 'Niacin (Vitamin B3)', description: 'Supports healthy circulation and cellular energy production.' },
   { name: 'Zinc', description: 'An essential mineral that plays a key role in immune function and cellular metabolism.' },
   { name: 'Korean Ginseng', description: 'Time-honored botanical for energy and overall wellness.' },
-  { name: 'Ashwagandha (250mg)', description: 'An adaptogenic herb traditionally used to help manage stress and support stamina.' },
+  { name: 'Ashwagandha', description: 'An adaptogenic herb traditionally used to help manage stress and support stamina.' },
   { name: 'Ginkgo Biloba', description: 'Supports healthy circulation and cognitive function.' },
 ];
 
