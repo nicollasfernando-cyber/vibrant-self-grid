@@ -63,7 +63,7 @@ export const FAQS = [
   { question: 'Is EndurAxe Prime safe?', answer: 'Enduraxe Prime is made with natural ingredients. However, as with any supplement, we recommend consulting your healthcare provider before starting, especially if you have existing conditions or take medication.' },
   { question: 'How long until I notice results?', answer: 'Individual experiences vary. Many users report noticing benefits within the first few weeks of consistent daily use. For optimal results, we recommend using EndurAxe Prime as part of your daily wellness routine.' },
   { question: 'Is there a money-back guarantee?', answer: 'Yes! We offer a 60-day money-back guarantee. If you\'re not satisfied, contact us for a full refund — no questions asked.' },
-  { question: 'Is my payment information secure?', answer: 'Dietary supplements are not approved by the FDA. However, Enduraxe Prime is manufactured in a facility that follows Good Manufacturing Practices (GMP).' },
+  { question: 'Is my payment information secure?', answer: 'Yes. We use industry-standard encryption and secure payment processing to protect your personal and payment information.' },
 ];
 
 export const getIcon = (name: string) => {
