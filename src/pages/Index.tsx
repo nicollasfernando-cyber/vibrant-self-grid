@@ -3,12 +3,13 @@ import { PRICING_TIERS, INGREDIENTS, FAQS, BENEFITS } from '@/constants';
 import { Check, ChevronDown, ChevronUp, ShieldCheck, Leaf, Award, Zap, Heart, Shield, Brain, Dumbbell, Moon, Package, Globe } from 'lucide-react';
 import ProductButton from '@/components/ProductButton';
 import productBottle from '@/assets/product-bottle.png';
+import pricing1Bottle from '@/assets/pricing-1-bottle.png';
 import pricing3Bottles from '@/assets/pricing-3-bottles.png';
 import pricing4Bottles from '@/assets/pricing-4-bottles.png';
 import pricing6Bottles from '@/assets/pricing-6-bottles.png';
 
 const pricingImages: Record<string, string> = {
-  single: productBottle,
+  single: pricing1Bottle,
   triple: pricing3Bottles,
   six: pricing6Bottles,
 };
