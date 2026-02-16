@@ -43,7 +43,7 @@ export const PRICING_TIERS = [
 export const INGREDIENTS = [
   { name: 'Vitamin D3', description: 'Essential for overall health, immune function, and daily energy balance.' },
   { name: 'Niacin (Vitamin B3)', description: 'Supports healthy circulation and cellular energy production.' },
-  { name: 'Zinc (15mg)', description: 'An essential mineral that plays a key role in immune function and cellular metabolism.' },
+  { name: 'Zinc', description: 'An essential mineral that plays a key role in immune function and cellular metabolism.' },
   { name: 'Vitamin D3 (2000 IU)', description: 'Supports bone health, immune function, and overall well-being, especially when sun exposure is limited.' },
   { name: 'Ashwagandha (250mg)', description: 'An adaptogenic herb traditionally used to help manage stress and support stamina.' },
   { name: 'Maca Root (200mg)', description: 'A Peruvian superfood associated with energy, endurance, and nutritional support.' },
