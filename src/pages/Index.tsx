@@ -189,7 +189,7 @@ const Index: React.FC = () => {
                 )}
                 <div className={`border-2 ${tier.isPopular ? 'border-brand-red bg-brand-red-light' : 'border-border'} p-6 md:p-8 text-center h-full flex flex-col`}>
                   <h3 className="font-bold text-lg mb-2">{tier.title || `${tier.bottles} BOTTLE${tier.bottles > 1 ? 'S' : ''}`}</h3>
-                  <p className="text-muted-foreground text-xs mb-3">{tier.bottles * 30} Capsules</p>
+                  <p className="text-muted-foreground text-xs mb-3">{tier.subtitle || `${tier.bottles * 30} Capsules`}</p>
                   <div className="mb-6 flex justify-center">
                     <img src={pricingImages[tier.id]} alt={`Enduraxe Prime - ${tier.bottles} bottle${tier.bottles > 1 ? 's' : ''}`} className="h-20 object-contain drop-shadow-md" />
                   </div>
