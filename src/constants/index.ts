@@ -4,7 +4,7 @@ export const PRICING_TIERS = [
     bottles: 1,
     title: 'BUY 2 GET 1 FREE',
     price: 154,
-    perBottle: 69,
+    perBottle: 77,
     shipping: 'Standard Shipping',
     savings: null,
     isPopular: false,
