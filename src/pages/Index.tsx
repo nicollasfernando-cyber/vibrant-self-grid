@@ -311,6 +311,8 @@ const Index: React.FC = () => {
             <p className="text-xs text-muted-foreground leading-relaxed text-center">
               <strong>Suggested Use:</strong> Take one (1) capsule daily with water. <br /><br />
               <strong>Warning:</strong> Do not exceed recommended dose. Pregnant or nursing mothers, children under 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement. Keep out of reach of children. Store in a cool, dry place.
+              <br /><br />
+              *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
             </p>
           </div>
         </div>
