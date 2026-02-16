@@ -4,6 +4,7 @@ import { Check, ChevronDown, ChevronUp, ShieldCheck, Leaf, Award, Zap, Heart, Sh
 import ProductButton from '@/components/ProductButton';
 import productBottle from '@/assets/product-bottle.png';
 import productLabel from '@/assets/product-label.png';
+import productBottle2 from '@/assets/product-bottle-2.png';
 import pricing1Bottle from '@/assets/pricing-1-bottle.png';
 import pricing3Bottles from '@/assets/pricing-3-bottles.png';
 import pricing4Bottles from '@/assets/pricing-4-bottles.png';
@@ -120,7 +121,7 @@ const Index: React.FC = () => {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/2 relative flex justify-center">
             <div className="bg-secondary rounded-full w-[400px] h-[400px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"></div>
-            <img src={productBottle} alt="Ingredients Bottle" className="mx-auto max-w-[280px] drop-shadow-2xl" />
+            <img src={productBottle2} alt="Ingredients Bottle" className="mx-auto max-w-[280px] drop-shadow-2xl" />
           </div>
           <div className="w-full md:w-1/2">
             <span className="bg-brand-red text-primary-foreground text-xs font-bold px-3 py-1 uppercase mb-4 inline-block">Premium Formula</span>
