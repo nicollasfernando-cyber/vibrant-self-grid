@@ -46,7 +46,7 @@ export const INGREDIENTS = [
   { name: 'Zinc', description: 'An essential mineral that plays a key role in immune function and cellular metabolism.' },
   { name: 'Korean Ginseng', description: 'Time-honored botanical for energy and overall wellness.' },
   { name: 'Ashwagandha (250mg)', description: 'An adaptogenic herb traditionally used to help manage stress and support stamina.' },
-  { name: 'Maca Root (200mg)', description: 'A Peruvian superfood associated with energy, endurance, and nutritional support.' },
+  { name: 'Ginkgo Biloba', description: 'A Peruvian superfood associated with energy, endurance, and nutritional support.' },
 ];
 
 export const BENEFITS = [
