@@ -212,7 +212,7 @@ const Index: React.FC = () => {
                     </li>
                     <li className="flex items-center gap-2">
                       <Check size={16} className="text-green-500" />
-                      <span>90-Day Supply</span>
+                      <span>5-month supply</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <Check size={16} className="text-green-500" />
