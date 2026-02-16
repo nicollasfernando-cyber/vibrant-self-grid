@@ -61,7 +61,7 @@ export const BENEFITS = [
 export const FAQS = [
   { question: 'How should I take Enduraxe Prime?', answer: 'Take one capsule daily with water, preferably with a meal. Consistency is key — we recommend taking it at the same time each day for best results.' },
   { question: 'Are there any side effects?', answer: 'Enduraxe Prime is made with natural ingredients. However, as with any supplement, we recommend consulting your healthcare provider before starting, especially if you have existing conditions or take medication.' },
-  { question: 'How long until I notice results?', answer: 'Individual results vary. Many users report noticing changes within the first few weeks of consistent daily use. We recommend at least 60 days for a full evaluation.' },
+  { question: 'How long until I notice results?', answer: 'Individual experiences vary. Many users report noticing benefits within the first few weeks of consistent daily use. For optimal results, we recommend using EndurAxe Prime as part of your daily wellness routine.' },
   { question: 'Is there a money-back guarantee?', answer: 'Yes! We offer a 60-day money-back guarantee. If you\'re not satisfied, contact us for a full refund — no questions asked.' },
   { question: 'Is Enduraxe Prime FDA approved?', answer: 'Dietary supplements are not approved by the FDA. However, Enduraxe Prime is manufactured in a facility that follows Good Manufacturing Practices (GMP).' },
 ];
