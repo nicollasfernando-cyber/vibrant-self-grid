@@ -41,7 +41,7 @@ export const PRICING_TIERS = [
 ];
 
 export const INGREDIENTS = [
-  { name: 'Vitamin D3', description: 'A traditional Southeast Asian herb used for centuries to support vitality and energy levels.' },
+  { name: 'Vitamin D3', description: 'Essential for overall health, immune function, and daily energy balance.' },
   { name: 'Fenugreek Extract (300mg)', description: 'Known for its potential to support healthy hormone levels and overall male wellness.' },
   { name: 'Zinc (15mg)', description: 'An essential mineral that plays a key role in immune function and cellular metabolism.' },
   { name: 'Vitamin D3 (2000 IU)', description: 'Supports bone health, immune function, and overall well-being, especially when sun exposure is limited.' },
