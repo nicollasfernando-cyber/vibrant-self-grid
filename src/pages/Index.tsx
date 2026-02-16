@@ -3,6 +3,15 @@ import { PRICING_TIERS, INGREDIENTS, FAQS, BENEFITS } from '@/constants';
 import { Check, ChevronDown, ChevronUp, ShieldCheck, Leaf, Award, Zap, Heart, Shield, Brain, Dumbbell, Moon, Package, Globe } from 'lucide-react';
 import ProductButton from '@/components/ProductButton';
 import productBottle from '@/assets/product-bottle.png';
+import pricing3Bottles from '@/assets/pricing-3-bottles.png';
+import pricing4Bottles from '@/assets/pricing-4-bottles.png';
+import pricing6Bottles from '@/assets/pricing-6-bottles.png';
+
+const pricingImages: Record<string, string> = {
+  single: productBottle,
+  triple: pricing3Bottles,
+  six: pricing6Bottles,
+};
 
 const iconMap: Record<string, React.ReactNode> = {
   zap: <Zap size={28} />,
@@ -180,7 +189,7 @@ const Index: React.FC = () => {
                   <h3 className="font-bold text-lg mb-2">{tier.bottles} BOTTLE{tier.bottles > 1 ? 'S' : ''}</h3>
                   <p className="text-muted-foreground text-xs mb-3">{tier.bottles * 30} Capsules</p>
                   <div className="mb-6 flex justify-center">
-                    <img src={productBottle} alt="Enduraxe Prime" className="h-20 object-contain drop-shadow-md" />
+                    <img src={pricingImages[tier.id]} alt={`Enduraxe Prime - ${tier.bottles} bottle${tier.bottles > 1 ? 's' : ''}`} className="h-20 object-contain drop-shadow-md" />
                   </div>
                   <div className="mb-6">
                     <div className="flex items-start justify-center text-foreground font-black font-heading">
