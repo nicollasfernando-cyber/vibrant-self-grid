@@ -338,6 +338,19 @@ const Index: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-brand-black py-10 border-t border-border">
+        <div className="container mx-auto px-4 text-center">
+          <div className="flex flex-wrap justify-center gap-6 md:gap-10 mb-6">
+            <a href="/privacy-policy" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Privacy Policy</a>
+            <a href="/terms-and-conditions" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Terms & Conditions</a>
+            <a href="/anti-spam" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Anti-Spam</a>
+            <a href="/contact" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Contact Us</a>
+          </div>
+          <p className="text-primary-foreground/30 text-xs">&copy; {new Date().getFullYear()} Enduraxe Prime. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 };
