@@ -51,7 +51,7 @@ const Index: React.FC = () => {
               A science-inspired blend designed to help men 35+ maintain energy, stamina, and overall performance — naturally and confidently.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <ProductButton onClick={scrollToPricing} size="lg">Get Enduraxe Prime</ProductButton>
+              <ProductButton onClick={scrollToPricing} size="lg">Get Testo Dark</ProductButton>
               <ProductButton onClick={() => document.getElementById('ingredients')?.scrollIntoView({ behavior: 'smooth' })} variant="outline" size="lg">Learn More</ProductButton>
             </div>
             <div className="mt-8 flex items-center justify-center md:justify-start gap-2 text-sm text-muted-foreground">
@@ -64,7 +64,7 @@ const Index: React.FC = () => {
             <div className="relative z-10 w-64 md:w-80 transition-transform hover:scale-105 duration-500">
               <img
                 src={productBottle}
-                alt="Enduraxe Prime Bottle"
+                alt="Testo Dark Bottle"
                 className="rounded-xl shadow-2xl"
               />
             </div>
@@ -192,7 +192,7 @@ const Index: React.FC = () => {
                   <h3 className="font-bold text-lg mb-2">{tier.title || `${tier.bottles} BOTTLE${tier.bottles > 1 ? 'S' : ''}`}</h3>
                   <p className="text-muted-foreground text-xs mb-3">{tier.subtitle || `${tier.bottles * 30} Capsules`}</p>
                   <div className="mb-6 flex justify-center">
-                    <img src={pricingImages[tier.id]} alt={`Enduraxe Prime - ${tier.bottles} bottle${tier.bottles > 1 ? 's' : ''}`} className="h-20 object-contain drop-shadow-md" />
+                    <img src={pricingImages[tier.id]} alt={`Testo Dark - ${tier.bottles} bottle${tier.bottles > 1 ? 's' : ''}`} className="h-20 object-contain drop-shadow-md" />
                   </div>
                   <div className="mb-6">
                     <div className="flex items-start justify-center text-foreground font-black font-heading">
@@ -324,7 +324,7 @@ const Index: React.FC = () => {
         <div className="container mx-auto px-4">
           <h2 className="font-black text-4xl md:text-5xl mb-4 text-primary-foreground">60-DAY MONEY-BACK GUARANTEE</h2>
           <p className="text-xl text-primary-foreground/50 mb-8">Money-back guarantee, no questions asked.</p>
-          <p className="text-brand-red font-bold text-lg">Try Enduraxe Prime risk-free for <span className="underline">60 days</span>.</p>
+          <p className="text-brand-red font-bold text-lg">Try Testo Dark risk-free for <span className="underline">60 days</span>.</p>
         </div>
       </section>
 
@@ -334,7 +334,7 @@ const Index: React.FC = () => {
           <h2 className="font-black text-4xl mb-2 text-foreground">PRODUCT LABEL</h2>
           <p className="text-muted-foreground mb-12">Full transparency. See exactly what goes into every bottle.</p>
           <div className="max-w-4xl mx-auto">
-            <img src={productLabel} alt="Enduraxe Prime Product Label" className="w-full rounded shadow-lg" />
+            <img src={productLabel} alt="Testo Dark Product Label" className="w-full rounded shadow-lg" />
           </div>
         </div>
       </section>
@@ -360,7 +360,7 @@ const Index: React.FC = () => {
             <a href="/anti-spam" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Anti-Spam</a>
             <a href="/contact" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Contact Us</a>
           </div>
-          <p className="text-primary-foreground/30 text-xs">&copy; {new Date().getFullYear()} Enduraxe Prime. All rights reserved.</p>
+          <p className="text-primary-foreground/30 text-xs">&copy; {new Date().getFullYear()} Testo Dark. All rights reserved.</p>
         </div>
       </footer>
     </div>

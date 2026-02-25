@@ -16,7 +16,7 @@ const TermsAndConditions: React.FC = () => (
         <p>By accessing and using this website, you accept and agree to be bound by these Terms & Conditions. If you do not agree, please do not use our website.</p>
 
         <h2 className="text-lg font-bold text-foreground mt-8">2. Products</h2>
-        <p>Enduraxe Prime is a dietary supplement. Results may vary from person to person. Our products are not intended to diagnose, treat, cure, or prevent any disease.</p>
+        <p>Testo Dark is a dietary supplement. Results may vary from person to person. Our products are not intended to diagnose, treat, cure, or prevent any disease.</p>
 
         <h2 className="text-lg font-bold text-foreground mt-8">3. Orders & Payment</h2>
         <p>All orders are subject to availability. We reserve the right to refuse or cancel any order. Prices are subject to change without notice. Payment must be received before order processing.</p>
@@ -28,7 +28,7 @@ const TermsAndConditions: React.FC = () => (
         <p>We offer a 60-day money-back guarantee. If you are not satisfied, contact us within 60 days of purchase for a full refund. Return shipping costs are the responsibility of the customer.</p>
 
         <h2 className="text-lg font-bold text-foreground mt-8">6. Limitation of Liability</h2>
-        <p>To the fullest extent permitted by law, Enduraxe Prime shall not be liable for any indirect, incidental, or consequential damages arising from the use of our products or website.</p>
+        <p>To the fullest extent permitted by law, Testo Dark shall not be liable for any indirect, incidental, or consequential damages arising from the use of our products or website.</p>
 
         <h2 className="text-lg font-bold text-foreground mt-8">7. Governing Law</h2>
         <p>These terms shall be governed by and construed in accordance with the laws of the United States.</p>

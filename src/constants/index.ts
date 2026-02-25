@@ -59,9 +59,9 @@ export const BENEFITS = [
 ];
 
 export const FAQS = [
-  { question: 'How should I take Enduraxe Prime?', answer: 'Take one capsule daily with water, preferably with a meal. Consistency is key — we recommend taking it at the same time each day for best results.' },
-  { question: 'Is EndurAxe Prime safe?', answer: 'Enduraxe Prime is made with natural ingredients. However, as with any supplement, we recommend consulting your healthcare provider before starting, especially if you have existing conditions or take medication.' },
-  { question: 'How long until I notice results?', answer: 'Individual experiences vary. Many users report noticing benefits within the first few weeks of consistent daily use. For optimal results, we recommend using EndurAxe Prime as part of your daily wellness routine.' },
+  { question: 'How should I take Testo Dark?', answer: 'Take one capsule daily with water, preferably with a meal. Consistency is key — we recommend taking it at the same time each day for best results.' },
+  { question: 'Is Testo Dark safe?', answer: 'Testo Dark is made with natural ingredients. However, as with any supplement, we recommend consulting your healthcare provider before starting, especially if you have existing conditions or take medication.' },
+  { question: 'How long until I notice results?', answer: 'Individual experiences vary. Many users report noticing benefits within the first few weeks of consistent daily use. For optimal results, we recommend using Testo Dark as part of your daily wellness routine.' },
   { question: 'Is there a money-back guarantee?', answer: 'Yes! We offer a 60-day money-back guarantee. If you\'re not satisfied, contact us for a full refund — no questions asked.' },
   { question: 'Is my payment information secure?', answer: 'Yes. We use industry-standard encryption and secure payment processing to protect your personal and payment information.' },
 ];

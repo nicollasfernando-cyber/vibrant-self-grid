@@ -13,7 +13,7 @@ const AntiSpam: React.FC = () => (
         <p><strong>Last Updated:</strong> {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
 
         <h2 className="text-lg font-bold text-foreground mt-8">Our Commitment</h2>
-        <p>Enduraxe Prime is committed to responsible email marketing practices. We do not send unsolicited commercial emails (spam) and fully comply with the CAN-SPAM Act.</p>
+        <p>Testo Dark is committed to responsible email marketing practices. We do not send unsolicited commercial emails (spam) and fully comply with the CAN-SPAM Act.</p>
 
         <h2 className="text-lg font-bold text-foreground mt-8">Consent</h2>
         <p>We only send marketing emails to individuals who have explicitly opted in to receive communications from us. Your email address will never be shared with or sold to third parties for marketing purposes.</p>
