@@ -342,6 +342,14 @@ const Index: React.FC = () => {
       {/* Footer */}
       <footer className="bg-brand-black py-10 border-t border-border">
         <div className="container mx-auto px-4 text-center">
+          <div className="mb-8">
+            <h4 className="text-primary-foreground/80 font-bold text-sm mb-2">Returns Address:</h4>
+            <p className="text-primary-foreground/50 text-sm leading-relaxed">
+              19655 E 35th Dr #100<br />
+              Aurora, CO 80011<br />
+              United States of America
+            </p>
+          </div>
           <div className="flex flex-wrap justify-center gap-6 md:gap-10 mb-6">
             <a href="/privacy-policy" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Privacy Policy</a>
             <a href="/terms-and-conditions" className="text-primary-foreground/60 hover:text-brand-red text-sm font-medium transition-colors">Terms & Conditions</a>
