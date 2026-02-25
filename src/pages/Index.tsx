@@ -342,6 +342,10 @@ const Index: React.FC = () => {
       {/* Footer */}
       <footer className="bg-brand-black py-10 border-t border-border">
         <div className="container mx-auto px-4 text-center">
+          <div className="mb-6">
+            <h3 className="text-primary-foreground font-black text-xl mb-1">TestoDark</h3>
+            <p className="text-primary-foreground/50 text-sm">Premium Men's Daily Supplement | Vitamins & Herbal Blend</p>
+          </div>
           <div className="mb-8">
             <h4 className="text-primary-foreground/80 font-bold text-sm mb-2">Returns Address:</h4>
             <p className="text-primary-foreground/50 text-sm leading-relaxed">
