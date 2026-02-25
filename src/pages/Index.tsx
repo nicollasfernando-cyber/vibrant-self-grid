@@ -220,7 +220,9 @@ const Index: React.FC = () => {
                       <span>Premium Quality</span>
                     </li>
                   </ul>
-                  <ProductButton variant="primary" className="w-full">ORDER NOW</ProductButton>
+                  <a href={tier.checkoutUrl} target="_blank" rel="noopener noreferrer" className="w-full">
+                    <ProductButton variant="primary" className="w-full">ORDER NOW</ProductButton>
+                  </a>
                 </div>
               </div>
             ))}
