@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Mail } from 'lucide-react';
+import { ArrowLeft, Mail, Phone } from 'lucide-react';
 
 const Contact: React.FC = () => (
   <div className="min-h-screen bg-background">
@@ -10,30 +10,30 @@ const Contact: React.FC = () => (
       </Link>
       <h1 className="text-4xl font-black text-foreground mb-8">CONTACT US</h1>
       <div className="text-muted-foreground space-y-8 text-sm leading-relaxed">
-        <p>Have a question, concern, or need help with your order? We're here for you.</p>
+        <p>If you have any questions, concerns, or need assistance, you can reach us through the contact information below:</p>
 
-        <div className="bg-secondary border border-border rounded p-8">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 bg-brand-red rounded-full flex items-center justify-center">
+        <div className="bg-secondary border border-border rounded p-8 space-y-6">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-brand-red rounded-full flex items-center justify-center shrink-0">
+              <Phone size={20} className="text-primary-foreground" />
+            </div>
+            <div>
+              <h3 className="font-bold text-foreground">Phone</h3>
+              <a href="tel:+18443841020" className="text-brand-red hover:underline">(844) 384-1020</a>
+              <p className="text-muted-foreground text-xs mt-1">Available every day</p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-brand-red rounded-full flex items-center justify-center shrink-0">
               <Mail size={20} className="text-primary-foreground" />
             </div>
             <div>
-              <h3 className="font-bold text-foreground">Email Support</h3>
-              <a href="mailto:support@enduraxeprime.com" className="text-brand-red hover:underline">support@enduraxeprime.com</a>
+              <h3 className="font-bold text-foreground">Email</h3>
+              <a href="mailto:support@shippingcaps.com" className="text-brand-red hover:underline">support@shippingcaps.com</a>
+              <p className="text-muted-foreground text-xs mt-1">Available Monday through Friday</p>
             </div>
           </div>
-          <p className="text-muted-foreground">We aim to respond to all inquiries within 24-48 business hours.</p>
-        </div>
-
-        <div className="bg-secondary border border-border rounded p-8">
-          <h3 className="font-bold text-foreground mb-3">Common Inquiries</h3>
-          <ul className="space-y-2 list-disc list-inside">
-            <li>Order status and tracking</li>
-            <li>Returns and refunds</li>
-            <li>Product questions</li>
-            <li>Shipping information</li>
-            <li>Account issues</li>
-          </ul>
         </div>
 
         <p className="text-xs text-muted-foreground/60">Please include your order number (if applicable) when contacting us for faster assistance.</p>
