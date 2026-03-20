@@ -16,7 +16,7 @@ import pricing6Bottles from '@/assets/pricing-6-bottles.png';
 const pricingImages: Record<string, string> = {
   single: pricing1Bottle,
   triple: pricing3Bottles,
-  six: pricing6Bottles,
+  six: pricing6Bottles
 };
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -25,7 +25,7 @@ const iconMap: Record<string, React.ReactNode> = {
   shield: <Shield size={28} />,
   brain: <Brain size={28} />,
   dumbbell: <Dumbbell size={28} />,
-  moon: <Moon size={28} />,
+  moon: <Moon size={28} />
 };
 
 const Index: React.FC = () => {
@@ -68,8 +68,8 @@ const Index: React.FC = () => {
               <img
                 src={productBottle}
                 alt="Testo Dark Bottle"
-                className="rounded-xl shadow-2xl"
-              />
+                className="rounded-xl shadow-2xl" />
+              
             </div>
           </div>
         </div>
@@ -106,15 +106,15 @@ const Index: React.FC = () => {
             <p className="text-primary-foreground/50 mt-4 max-w-2xl mx-auto">Experience comprehensive daily wellness support with our carefully formulated blend of vitamins and botanical extracts.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {BENEFITS.map((benefit, idx) => (
-              <div key={idx} className="bg-primary-foreground/5 border border-primary-foreground/10 p-8 hover:bg-primary-foreground/10 transition-colors group">
+            {BENEFITS.map((benefit, idx) =>
+            <div key={idx} className="bg-primary-foreground/5 border border-primary-foreground/10 p-8 hover:bg-primary-foreground/10 transition-colors group">
                 <div className="mb-4 text-brand-red group-hover:scale-110 transition-transform duration-300">
                   {iconMap[benefit.icon]}
                 </div>
                 <h3 className="font-bold text-lg mb-2 text-primary-foreground">{benefit.title}</h3>
                 <p className="text-primary-foreground/50 text-sm leading-relaxed">{benefit.description}</p>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -130,15 +130,15 @@ const Index: React.FC = () => {
             <span className="bg-brand-red text-primary-foreground text-xs font-bold px-3 py-1 uppercase mb-4 inline-block">Premium Formula</span>
             <h2 className="text-4xl font-bold text-foreground mb-8 leading-tight">SCIENCE-INSPIRED <br /> INGREDIENTS</h2>
             <div className="space-y-6">
-              {INGREDIENTS.map((ing, idx) => (
-                <div key={idx} className="flex gap-4">
+              {INGREDIENTS.map((ing, idx) =>
+              <div key={idx} className="flex gap-4">
                   <div className="min-w-2 h-2 mt-2 rounded-full bg-brand-red"></div>
                   <div>
                     <h4 className="font-bold text-foreground uppercase text-sm mb-1">{ing.name}</h4>
                     <p className="text-muted-foreground text-sm">{ing.description}</p>
                   </div>
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </div>
@@ -152,18 +152,18 @@ const Index: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8 relative max-w-5xl mx-auto">
             <div className="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-border -z-10"></div>
             {[
-              { num: '01', title: 'DAILY NUTRITION', desc: 'Essential vitamins and minerals provide foundation.' },
-              { num: '02', title: 'BOTANICAL SUPPORT', desc: 'Traditional herbs work synergistically.' },
-              { num: '03', title: 'CONSISTENT RESULTS', desc: 'Experience ongoing support with daily use.' },
-            ].map((step, idx) => (
-              <div key={idx} className="bg-secondary px-4">
+            { num: '01', title: 'DAILY NUTRITION', desc: 'Essential vitamins and minerals provide foundation.' },
+            { num: '02', title: 'BOTANICAL SUPPORT', desc: 'Traditional herbs work synergistically.' },
+            { num: '03', title: 'CONSISTENT RESULTS', desc: 'Experience ongoing support with daily use.' }].
+            map((step, idx) =>
+            <div key={idx} className="bg-secondary px-4">
                 <div className="w-24 h-24 bg-background rounded-full border-4 border-border flex items-center justify-center mx-auto mb-6 shadow-sm">
                   <span className="font-black text-3xl text-brand-red">{step.num}</span>
                 </div>
                 <h3 className="font-bold text-lg mb-2">{step.title}</h3>
                 <p className="text-muted-foreground text-sm max-w-xs mx-auto">{step.desc}</p>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -176,21 +176,21 @@ const Index: React.FC = () => {
             <p className="text-primary-foreground/50">Select the package that fits your wellness goals.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto items-end">
-            {PRICING_TIERS.map((tier) => (
-              <div
-                key={tier.id}
-                className={`relative bg-background text-foreground p-2 rounded-sm ${tier.isPopular ? 'order-first md:order-none md:-mt-8 z-10' : ''}`}
-              >
-                {tier.isPopular && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-red text-primary-foreground text-xs font-bold uppercase py-1 px-4 rounded-full shadow-lg">
+            {PRICING_TIERS.map((tier) =>
+            <div
+              key={tier.id}
+              className={`relative bg-background text-foreground p-2 rounded-sm ${tier.isPopular ? 'order-first md:order-none md:-mt-8 z-10' : ''}`}>
+              
+                {tier.isPopular &&
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-red text-primary-foreground text-xs font-bold uppercase py-1 px-4 rounded-full shadow-lg">
                     Most Popular
                   </div>
-                )}
-                {tier.isBestValue && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-600 text-primary-foreground text-xs font-bold uppercase py-1 px-4 rounded-full shadow-lg">
+              }
+                {tier.isBestValue &&
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-600 text-primary-foreground text-xs font-bold uppercase py-1 px-4 rounded-full shadow-lg">
                     Best Value
                   </div>
-                )}
+              }
                 <div className={`border-2 ${tier.isPopular ? 'border-brand-red bg-brand-red-light' : 'border-border'} p-6 md:p-8 text-center h-full flex flex-col`}>
                   <h3 className="font-bold text-lg mb-2">{tier.title || `${tier.bottles} BOTTLE${tier.bottles > 1 ? 'S' : ''}`}</h3>
                   <p className="text-muted-foreground text-xs mb-3">{tier.subtitle || `${tier.bottles * 30} Capsules`}</p>
@@ -204,11 +204,11 @@ const Index: React.FC = () => {
                     </div>
                     <p className="text-muted-foreground text-sm mt-2">${tier.perBottle} per bottle</p>
                   </div>
-                  {tier.savings && (
-                    <div className="bg-brand-red-light text-brand-red font-bold text-sm py-1 px-2 mb-6 inline-block mx-auto rounded">
+                  {tier.savings &&
+                <div className="bg-brand-red-light text-brand-red font-bold text-sm py-1 px-2 mb-6 inline-block mx-auto rounded">
                       {tier.savings}
                     </div>
-                  )}
+                }
                   <ul className="space-y-3 mb-8 text-left text-sm text-muted-foreground flex-grow">
                     <li className="flex items-center gap-2">
                       <Check size={16} className="text-green-500" />
@@ -228,7 +228,7 @@ const Index: React.FC = () => {
                   </a>
                 </div>
               </div>
-            ))}
+            )}
           </div>
           <div className="flex flex-wrap justify-center gap-6 mt-16 text-sm font-bold text-primary-foreground/50 uppercase tracking-wide">
             <div className="flex items-center gap-2">
@@ -251,7 +251,8 @@ const Index: React.FC = () => {
           <img src={guaranteeBadge} alt="60 Days Money Back Guarantee" className="h-[170px] object-contain" />
           <img src={paymentcardBadge} alt="Payment Methods" className="h-[60px] object-contain" />
         </div>
-        <p className="text-center text-white/60 text-[13px] mt-4">Sua compra é 100% segura e protegida</p>
+        <p className="text-center text-white/60 text-[13px] mt-4">Your purchase is 100% safe and secure.
+</p>
       </section>
 
       {/* Shipping Info */}
@@ -285,12 +286,11 @@ const Index: React.FC = () => {
             <h2 className="font-black text-4xl mt-2">COMMON QUESTIONS</h2>
           </div>
           <div className="space-y-4">
-            {FAQS.map((faq, index) => (
-              <div key={index} className="border-b border-border last:border-0">
+            {FAQS.map((faq, index) => <div key={index} className="border-b border-border last:border-0">
                 <button
-                  onClick={() => toggleFaq(index)}
-                  className="w-full flex items-center justify-between py-6 text-left focus:outline-none"
-                >
+                onClick={() => toggleFaq(index)}
+                className="w-full flex items-center justify-between py-6 text-left focus:outline-none">
+                  
                   <span className="font-bold text-foreground text-sm md:text-base uppercase tracking-tight">{faq.question}</span>
                   {openFaq === index ? <ChevronUp className="text-brand-red" size={20} /> : <ChevronDown className="text-muted-foreground" size={20} />}
                 </button>
@@ -298,7 +298,7 @@ const Index: React.FC = () => {
                   <p className="text-muted-foreground text-sm leading-relaxed">{faq.answer}</p>
                 </div>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -378,8 +378,8 @@ const Index: React.FC = () => {
           <p className="text-primary-foreground/30 text-xs">&copy; {new Date().getFullYear()} Testo Dark. All rights reserved.</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Index;
