@@ -244,6 +244,16 @@ const Index: React.FC = () => {
         </div>
       </section>
 
+      {/* Trust Badges Below Pricing */}
+      <section className="py-10" style={{ backgroundColor: '#0d0d0d' }}>
+        <div className="flex flex-wrap items-center justify-center gap-8 max-[480px]:flex-col max-[480px]:gap-4">
+          <img src={safesecureBadge} alt="Safe & Secure Checkout" className="h-[160px] object-contain" />
+          <img src={guaranteeBadge} alt="60 Days Money Back Guarantee" className="h-[170px] object-contain" />
+          <img src={paymentcardBadge} alt="Payment Methods" className="h-[60px] object-contain" />
+        </div>
+        <p className="text-center text-white/60 text-[13px] mt-4">Sua compra é 100% segura e protegida</p>
+      </section>
+
       {/* Shipping Info */}
       <section className="bg-background py-16 border-b border-border">
         <div className="container mx-auto px-4">
