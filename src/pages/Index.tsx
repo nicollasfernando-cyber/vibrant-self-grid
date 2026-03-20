@@ -3,6 +3,9 @@ import { PRICING_TIERS, INGREDIENTS, FAQS, BENEFITS } from '@/constants';
 import { Check, ChevronDown, ChevronUp, ShieldCheck, Leaf, Award, Zap, Heart, Shield, Brain, Dumbbell, Moon, Package, Globe } from 'lucide-react';
 import ProductButton from '@/components/ProductButton';
 import productBottle from '@/assets/product-bottle.png';
+import safesecureBadge from '@/assets/safesecure.png';
+import guaranteeBadge from '@/assets/guarantee.webp';
+import paymentcardBadge from '@/assets/paymentcard.webp';
 import productLabel from '@/assets/product-label.png';
 import productBottle2 from '@/assets/product-bottle-2.png';
 import pricing1Bottle from '@/assets/pricing-1-bottle.png';
@@ -239,6 +242,16 @@ const Index: React.FC = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Trust Badges Below Pricing */}
+      <section className="py-10" style={{ backgroundColor: '#0d0d0d' }}>
+        <div className="flex flex-wrap items-center justify-center gap-8 max-[480px]:flex-col max-[480px]:gap-4">
+          <img src={safesecureBadge} alt="Safe & Secure Checkout" className="h-[160px] object-contain" />
+          <img src={guaranteeBadge} alt="60 Days Money Back Guarantee" className="h-[170px] object-contain" />
+          <img src={paymentcardBadge} alt="Payment Methods" className="h-[60px] object-contain" />
+        </div>
+        <p className="text-center text-white/60 text-[13px] mt-4">Sua compra é 100% segura e protegida</p>
       </section>
 
       {/* Shipping Info */}
