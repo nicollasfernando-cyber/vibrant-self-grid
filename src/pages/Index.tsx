@@ -247,7 +247,7 @@ const Index: React.FC = () => {
       {/* Trust Badges Below Pricing */}
       <section className="py-10" style={{ backgroundColor: '#0d0d0d' }}>
         <div className="flex flex-wrap items-center justify-center gap-8 max-[480px]:flex-col max-[480px]:gap-4">
-          <img src={safesecureBadge} alt="Safe & Secure Checkout" className="h-[160px] object-contain" />
+          <img alt="Safe & Secure Checkout" className="h-[160px] object-contain" src="/lovable-uploads/1c516e68-4dca-4a0b-aabe-99c9c55d39b7.png" />
           <img src={guaranteeBadge} alt="60 Days Money Back Guarantee" className="h-[170px] object-contain" />
           <img src={paymentcardBadge} alt="Payment Methods" className="h-[60px] object-contain" />
         </div>
